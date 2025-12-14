@@ -1,0 +1,20 @@
+# 1. PYTHON UMGEBUNGEN AUSSCHLIESSEN (WICHTIG!)
+# Schließt den lokalen venv-Ordner aus
+venv/
+*.venv
+# Lock-Dateien von uv/pip
+*lock.json
+
+# 2. PRIVATE/GROSSE DATEN UND MODELLE
+# Schließt den Ordner mit privaten Übungen aus (da Sie ihn umbenannt haben)
+notebooks/exercises_private/
+
+# Schließt große Rohdaten aus
+data/raw/
+data/raw/*
+
+# 3. SYSTEM- UND TEMPORÄRDATEIEN
+# Jupyter Checkpoints
+.ipynb_checkpoints/
+# Mac OS-spezifisch
+.DS_Store
