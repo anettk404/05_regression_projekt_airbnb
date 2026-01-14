@@ -7,7 +7,7 @@ from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from sklearn.pipeline import Pipeline
 from sklearn.metrics import r2_score, mean_squared_error
 
-# 1. FEHLER BEHOBEN: Klammer zu ')' nach num_features statt Doppelpunkt
+# 1. Preprocessing
 def get_preprocessor(cat_features, num_features):
     """Hilfsfunktion für den Preprocessor mit Skalierung."""
     return ColumnTransformer([
@@ -18,7 +18,6 @@ def get_preprocessor(cat_features, num_features):
 # 2. ANPASSUNG: num_features muss auch hier als Argument rein
 def run_ols(X_train, X_val, y_train, y_val, cat_features, num_features):
     pipeline = Pipeline([
-        # Hier fehlte das num_features Argument beim Aufruf
         ('preprocessor', get_preprocessor(cat_features, num_features)),
         ('regressor', LinearRegression())
     ])

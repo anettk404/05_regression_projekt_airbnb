@@ -1,11 +1,11 @@
 -- Tabelle Erstellen für NYC in PGAdmin
 
-DROP TABLE IF EXISTS nyc_airbnb_listings_raw CASCADE;
+DROP TABLE IF EXISTS chicago_airbnb_listings_raw CASCADE;
 
-CREATE TABLE nyc_airbnb_listings_raw (
+CREATE TABLE chicago_airbnb_listings_raw (
     -- 1. IDENTIFIKATION UND LAGE
     id BIGINT PRIMARY KEY,
-    city VARCHAR(50) NOT NULL, -- Flexibilität für weitere Städte (z.B. Berlin, Paris)
+    city VARCHAR(50) NOT NULL, -- Flexibilität für weitere Städte
     latitude DOUBLE PRECISION NOT NULL,
     longitude DOUBLE PRECISION NOT NULL,
 
