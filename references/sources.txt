@@ -1,0 +1,19 @@
+#### Literaturverzeichnis
+
+**Bücher & Kurse**  
+
+- Çetinkaya-Rundel, M., & Hardin, J. (2021). Introduction to Modern Statistics (Kap. 7–8). [Online-Version]. https://openintro-ims.netlify.app/
+- Géron, A. (2022). Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems (3. Aufl.). O'Reilly Media.
+- Kirenz, J. (o. J.). Data Science with Python. https://kirenz.github.io/ds-python/docs/intro.html
+- Kirenz, J. (o. J.). Introduction to Regression Models. https://kirenz.github.io/regression/docs/intro.html
+- Ng, A. (o. J.). Machine Learning Specialization. DeepLearning.AI. https://learn.deeplearning.ai/specializations/machine-learning/information
+- Nussbaumer Knaflic, C. (2015). Storytelling with Data: A Data Visualization Guide for Business Professionals. Wiley.
+
+**Code-Repositories & Kursunterlagen**  
+
+- Kirenz, J. (o. J.). Regression Projekt [GitHub Repository]. https://github.com/kirenz/regression-projekt
+- Géron, A. (2022):Example Project Workflow: Hands on Machine Learning (California housing prices) [Jupyter Notebook zum Buchkapitel oben]. https://github.com/kirenz/data-science-projects/blob/master/end-to-end/03_new_end_to_end_machine_learning_project.ipynb
+
+
+**Anmerkung zum KI-Einsatz**   
+Die Ideen, Struktur und Code wurden mit Gemini 3 und ChatGPT entwickelt.
