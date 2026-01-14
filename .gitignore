@@ -21,3 +21,4 @@ data/raw/*
 
 # PostgreSQL Konfigurationsdatei ausschließen
 db_config.json
+
