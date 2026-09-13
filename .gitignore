@@ -6,7 +6,6 @@ venv/
 *lock.json
 
 # 2. PRIVATE/GROSSE DATEN UND MODELLE
-# Schließt den Ordner mit privaten Übungen aus (da Sie ihn umbenannt haben)
 notebooks/exercises_private/
 
 # Schließt große Rohdaten aus
@@ -23,5 +22,4 @@ data/raw/*
 db_config.json
 
 # BestimmteJupyter Notebooks ausschließen
-02_NYC_viz_EDA_new.ipynb
 02_NYC_viz_EDA.ipynb
