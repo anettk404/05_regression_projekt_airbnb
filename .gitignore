@@ -22,6 +22,7 @@ data/raw/*
 # PostgreSQL Konfigurationsdatei ausschließen
 db_config.json
 
+# BestimmteJupyter Notebooks ausschließen
 02_NYC_viz_EDA_new.ipynb
 02_NYC_viz_EDA.ipynb
 
