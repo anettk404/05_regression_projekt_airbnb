@@ -22,3 +22,8 @@ data/raw/*
 # PostgreSQL Konfigurationsdatei ausschließen
 db_config.json
 
+02_NYC_viz_EDA_new.ipynb
+02_NYC_viz_EDA.ipynb
+
+
+reports/
